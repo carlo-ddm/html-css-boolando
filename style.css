@@ -1,0 +1,23 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+ .container {
+   background-color: blue;
+   margin: 10px auto;
+   width: 70%;
+   text-align: center;
+ }
+
+ .box, .ad {
+   background-color: aquamarine;
+   display: inline-block;
+   margin: 0 10px;
+   width: 30%;
+   height: 400px;
+ }
+
+ .ad {
+   height: 50px;
+ }
