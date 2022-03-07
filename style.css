@@ -29,6 +29,10 @@ body {
   position: relative;
 }
 
+img:hover {
+  content: "img/1b.webp"; chiedere perché non riesco ................................
+}
+
 .img-container, .box {
   float: left;
   width: 32%;
