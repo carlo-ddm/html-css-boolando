@@ -92,6 +92,7 @@ img {
   line-height: 33px;
 }
 
+/* Discount */
 .label.discount {
   bottom: 20px;
   left: 0px;
@@ -100,8 +101,22 @@ img {
   height: 20px;
 }
 
-.discount span {
+.discount span, .sostenibilità span {
   color: white;
   font-size: 11px;
   line-height: 10px;
+}
+
+/* Sostenibilità */
+.label.sostenibilità {
+  bottom: 20px;
+  left: 45px;
+  background-color: #1E794C;
+  width: 80px;
+  height: 20px;
+}
+
+.label.sostenibilità.right {
+  left: 0;
+  margin: 0 0;
 }
