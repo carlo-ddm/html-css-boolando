@@ -25,12 +25,15 @@ body {
 }
 
 /* Img + Discount + Product */
-img, .box {
+.img-container, .box {
   float: left;
   width: 32%;
 }
+img {
+  width: 100%;
+}
 
-img.right, .box.right {
+.img-container.right, .box.right {
   float: right;
 }
 
@@ -70,7 +73,3 @@ img.right, .box.right {
 }
 
 /* Discounts */
-
-
-
- 
