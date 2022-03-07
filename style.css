@@ -42,7 +42,7 @@ img.right, .box.right {
   display: block;
 }
 
-.brand {
+.brand, .price.strike {
   color: grey;
   font-size: 10px;
 }
@@ -53,12 +53,22 @@ img.right, .box.right {
 }
 
 .price {
-  color: red;
   font-size: 10px;
 }
 
-.price::after {
+.new, .new::after {
+  color: red;
+}
+
+.new::after {
   content: "\20AC";
 }
+
+.price .strike {
+  color: grey;
+  text-decoration: line-through;
+}
+
+
 
  
