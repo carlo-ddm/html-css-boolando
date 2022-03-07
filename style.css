@@ -76,14 +76,32 @@ img {
   text-decoration: line-through;
 }
 
-/* Heart */
-.heart {
+/* Labels */
+.label {
   position: absolute;
+  text-align: center;
+}
+
+/* Heart */
+.label.heart {
   top: 10px;
   right: 0px;
   background-color: white;
   width: 30px;
   height: 30px;
-  text-align: center;
-  line-height: 32px;
+  line-height: 33px;
+}
+
+.label.discount {
+  bottom: 20px;
+  left: 0px;
+  background-color: red;
+  width: 40px;
+  height: 20px;
+}
+
+.discount span {
+  color: white;
+  font-size: 11px;
+  line-height: 10px;
 }
