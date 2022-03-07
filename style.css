@@ -14,9 +14,14 @@ body {
   clear: both;
 }
 
-.container.clearfix {
-  margin: 10px auto;
+.container {
   width: 1000px;
+  margin: auto;
+}
+
+.up.clearfix, .down.clearfix {
+  margin: 30px auto;
+  width: 100%;
 }
 
 /* Img + Discount + Product */
@@ -33,7 +38,6 @@ img.right, .box.right {
   margin: 0 10px;
 }
 
-/* Discount */
 .brand, .product, .price {
   display: block;
 }
