@@ -25,6 +25,10 @@ body {
 }
 
 /* Img + Discount + Product */
+.img-container {
+  position: relative;
+}
+
 .img-container, .box {
   float: left;
   width: 32%;
@@ -72,4 +76,14 @@ img {
   text-decoration: line-through;
 }
 
-/* Discounts */
+/* Heart */
+.heart {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 32px;
+}
