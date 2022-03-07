@@ -3,52 +3,58 @@
   padding: 0;
   box-sizing: border-box;
 }
- .container {
-   background-color: blue;
-   margin: 10px auto;
-   width: 70%;
-   text-align: center;
- }
 
- .box, .discount {
-   display: inline-block;
-   margin: 0 10px;
-   width: 30%;
-   height: 400px;
- }
-
- .box {
-  background-color: aquamarine;
-  background-size: cover;
-  background-position: center;
- }
-
- .discount {
-   background-color: bisque;
-   height: 50px;
- }
-
- /* Img Box */
- .box.up.left {
-   background-image: url(img/1.webp);
- }
-
- .box.up.center {
-   background-image: url(img/2.webp);
- }
-
- .box.up.right {
-   background-image: url(img/3.webp);
- }
-
- .box.down.left {
-  background-image: url(img/4.webp);
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.box.down.center {
-  background-image: url(img/5.webp);
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.box.down.right {
-  background-image: url(img/6.webp);
+.container.clearfix {
+  margin: 10px auto;
+  width: 1000px;
 }
+
+/* Img + Discount + Product */
+img, .box {
+  float: left;
+  width: 32%;
+}
+
+img.right, .box.right {
+  float: right;
+}
+
+.left, .right {
+  margin: 0 10px;
+}
+
+/* Discount */
+.brand, .product, .price {
+  display: block;
+}
+
+.brand {
+  color: grey;
+  font-size: 10px;
+}
+
+.product {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.price {
+  color: red;
+  font-size: 10px;
+}
+
+.price::after {
+  content: "\20AC";
+}
+
+ 
