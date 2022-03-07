@@ -10,14 +10,45 @@
    text-align: center;
  }
 
- .box, .ad {
-   background-color: aquamarine;
+ .box, .discount {
    display: inline-block;
    margin: 0 10px;
    width: 30%;
    height: 400px;
  }
 
- .ad {
+ .box {
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: center;
+ }
+
+ .discount {
+   background-color: bisque;
    height: 50px;
  }
+
+ /* Img Box */
+ .box.up.left {
+   background-image: url(img/1.webp);
+ }
+
+ .box.up.center {
+   background-image: url(img/2.webp);
+ }
+
+ .box.up.right {
+   background-image: url(img/3.webp);
+ }
+
+ .box.down.left {
+  background-image: url(img/4.webp);
+}
+
+.box.down.center {
+  background-image: url(img/5.webp);
+}
+
+.box.down.right {
+  background-image: url(img/6.webp);
+}
