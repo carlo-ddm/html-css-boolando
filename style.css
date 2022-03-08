@@ -17,6 +17,7 @@ body {
 .container {
   width: 1000px;
   margin: auto;
+  cursor: pointer;
 }
 
 .up.clearfix, .down.clearfix {
@@ -27,10 +28,6 @@ body {
 /* Img + Discount + Product */
 .img-container {
   position: relative;
-}
-
-img:hover {
-  content: "img/1b.webp"; chiedere perché non riesco ................................
 }
 
 .img-container, .box {
@@ -124,4 +121,19 @@ img {
 .label.sostenibilità.right {
   left: 0;
   margin: 0 0;
+}
+
+
+/* Gestione Swap Img */
+
+.second {
+  display: none;
+}
+
+.img-container:hover .first {
+  display: none;
+}
+
+.img-container:hover .second {
+  display: inline-block;
 }
