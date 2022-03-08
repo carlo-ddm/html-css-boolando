@@ -126,13 +126,19 @@ img {
 
 /* Gestione Swap Img */
 
+/* Di default .second è dispay: none */
+
 .second {
   display: none;
 }
 
+/* All'Hover di .img-container nascondo .first.... */
+
 .img-container:hover .first {
   display: none;
 }
+
+/* ....e mostro .second */
 
 .img-container:hover .second {
   display: inline-block;
