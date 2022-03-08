@@ -132,13 +132,13 @@ img {
   display: none;
 }
 
-/* All'Hover di .img-container nascondo .first.... */
+/* All'Hover di .img-container nascondo .first..... */
 
 .img-container:hover .first {
   display: none;
 }
 
-/* ....e mostro .second */
+/* .....e mostro .second */
 
 .img-container:hover .second {
   display: inline-block;
